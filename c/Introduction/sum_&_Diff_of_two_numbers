@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+    int   w,x,y,z;
+    float a,b,c,d;
+    
+    scanf("%d %d",&w,&x);
+    scanf("%f %f",&a,&b);
+    
+    y = w+x;
+    z = w-x;
+  
+    
+    
+   
+    c = a+b; 
+    d = a-b;
+  
+    
+  printf("%d %d\n",y,z);
+  printf("%.1f %.1f",c,d); 
+	
+    
+    return 0;
+    
+}
