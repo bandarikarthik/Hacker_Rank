@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdint.h>
+
+uint8_t max_of_four(uint8_t,uint8_t,uint8_t,uint8_t);
+
+int main() {
+    int a, b, c, d;
+    scanf("%d %d %d %d", &a, &b, &c, &d);
+    int ans = max_of_four(a, b, c, d);
+    printf("%d", ans);
+    
+    return 0;
+}
+uint8_t max_of_four(uint8_t a,uint8_t b,uint8_t c ,uint8_t d){
+    
+    uint8_t Max=0;
+    if(a>Max)Max=a;
+    if(b>Max)Max=b;
+    if(c>Max)Max=c;
+    if(d>Max)Max=d;
+    
+     return Max;
+    
+}
